@@ -1,0 +1,41 @@
+.about-me{
+   width: 100%;
+}
+
+.about-me-wrapper{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.about-me-wrapper .description{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+.about-me-wrapper .image img{
+    width: 79vw;
+    height: auto;
+
+}
+
+.about-me-wrapper .des1, .des2{
+    width: 38vw;
+}
+
+@media screen and (max-width: 766px) {
+
+    .about-me-wrapper .des1, .des2{
+        width: 90vw;
+    }
+   
+}

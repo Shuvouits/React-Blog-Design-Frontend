@@ -1,0 +1,82 @@
+.instagram{
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+  
+
+}
+
+.instagram .gallery{
+    display: flex;
+    background: black;
+    flex-wrap: wrap;
+   
+}
+
+.instagram .gallery img{
+    margin: 0;
+    padding: 0;
+    width: 16.666%;
+   /* height: 280px;*/
+    gap: 0;
+    border: none;
+    transition: background-color 0.3s ease;
+   
+}
+
+ .instagram .gallery img:hover{
+    
+    opacity: 0.7;
+}
+
+.insta-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.insta-btn a{
+    background: black;
+    color: white;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.insta-btn .instagram-extra{
+    margin-left: 10px;
+}
+
+.insta-btn a:hover{
+    background: #408bd1;
+}
+
+@media screen and (max-width : 433px){
+    .insta-btn .instagram-extra{
+        margin-left: 0px;
+    }
+
+    .insta-btn a{
+        background: black;
+        color: white;
+        font-size: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-decoration: none;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+   
+  }
+  

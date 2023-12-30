@@ -1,0 +1,52 @@
+
+
+.category-content{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+ 
+    
+}
+
+
+
+
+
+.text-box-blog-content{
+
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+    
+}
+
+.text-box-blog-content .headings{
+    font-family: oswald;
+    font-size: 28px;
+}
+
+.text-box-blog-content .description{
+    color: gray;
+    font-size: 19px;
+    font-family: roboto-sans;
+    
+}
+
+.text-box-blog-content .read-more .social{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 40px;
+}
+
+.text-box-blog-content .read-more .social i{
+    background: none;
+    color: black;
+    
+
+}
+

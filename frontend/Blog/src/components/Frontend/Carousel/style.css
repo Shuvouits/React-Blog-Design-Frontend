@@ -1,0 +1,112 @@
+.carousel-container {
+  
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.content-box{
+  position: absolute;
+  
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  background: black;
+  border-radius: 10px;
+  padding: 10px;
+  opacity: 0.6;
+  
+  
+}
+.content-box p{
+  color : white;
+  font-size: 10px;
+ 
+}
+.content-box h2{
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+
+  
+}
+.content-box a{
+  color: white;
+  border: none;
+  background: black;
+  cursor: pointer;
+  font-size: 12px;
+  
+  
+}
+
+.carousel-item {
+  position: relative;
+  height: auto; /* Adjust the height as needed */
+  perspective: 1000px;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.carousel-image:hover {
+  transform: scale(1.1) translateZ(50px);
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slick-dots li {
+  margin: 0 4px;
+}
+
+
+.slick-dots li.slick-active button {
+  background-color: #fff;
+}
+
+@media (max-width: 767px) {
+  .carousel-container {
+    position: relative;
+    width: 100%;
+   
+  }
+ 
+ 
+}
+
+
+@media (max-width: 425px) {
+
+  .content-box{
+    width: 100%;
+    
+  }
+
+  .content-box p, h2, a{
+    margin-left: 10px;
+    
+  }
+  
+ 
+ 
+}

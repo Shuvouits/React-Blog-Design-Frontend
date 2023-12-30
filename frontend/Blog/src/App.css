@@ -1,0 +1,19 @@
+.gap{
+  padding: 40px;
+}
+
+
+.custom-link {
+  text-decoration: none !important;
+  /* Add any other styles you want for the link */
+}
+@media screen and (max-width: 341px) {
+
+  *{
+    overflow-x: hidden !important;
+  }
+
+
+
+}
+

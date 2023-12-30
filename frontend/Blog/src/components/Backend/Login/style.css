@@ -1,0 +1,74 @@
+.login{
+    
+
+  
+  
+}
+
+.login-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+   
+}
+
+.form-wrapper{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 40vw;
+    height: 25vw;
+
+}
+
+.input-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.input-section input{
+    border: 1px solid gainsboro;
+    outline: none;
+    width: 28vw;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.input-section input:focus{
+    border: 1px solid gray;
+}
+
+.input-section Form{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.input-section button{
+    border: none;
+    max-width: 28vw;
+    width: 15vw;
+    height: 45px;
+    background: blueviolet;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    
+  
+}
